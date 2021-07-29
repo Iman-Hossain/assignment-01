@@ -1,0 +1,155 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    display: block;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    color: rgb(18, 139, 155);
+    margin: 0;
+    
+}
+
+
+.orange-color{
+    color: orange;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+
+.nav-bar{
+
+    float: right;
+    margin: 20px 40px ;
+}
+
+
+
+li{
+    
+    display: inline;
+    margin: 2px;
+    width: 0;
+    
+    border-radius: 15px;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    background-image: linear-gradient(rgb(253, 253, 253),rgb(255, 255, 255));
+    
+}
+li a{
+    text-decoration: none;
+    color: rgb(36, 2, 2);
+    margin: 2px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+
+li a:hover{
+    background-color: rgb(245, 45, 45);
+    transition: 0.5s;
+    color: white;
+    
+}
+
+.food-order{
+    display: inline-block;
+}
+
+.order-site{
+    width: 40%;
+    margin-top: 50px;
+    padding: 50px;
+    font-size: 30px;
+    display: inline-block;
+}
+.photo-site{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    margin-top: 0;
+    float: right;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border: 1px  red;
+    border-radius: 50px;
+    box-shadow: 10px 10px 50px rgba(255, 0, 0, 0.39);
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(238, 101, 124));
+}
+
+.about-us{
+
+    display: flex;
+    
+    padding: 10px;
+    background-image: url(images/7.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 485px;
+    background-position:  center ;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+    display: inline-block;
+    font-size: 20px;
+}
+.half-width img{
+    width: 50%;
+    padding-left: 60px;
+    padding-bottom: 0;
+    
+    
+}
+.recipies-intro{
+    text-align: center;
+    padding: 10px 170px ;
+    margin: 30px;
+    font-size: 20px;
+}
+.recipies-deta{
+    display: flex;
+    
+}
+.one-half{
+    width: 25%;
+    margin: 3%;
+    padding: 2%;
+    font-size: 20px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+}
+.one-half img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-image: linear-gradient(rgba(39, 44, 63, 0.932),rgb(25, 35, 61));
+    height: 200px;
+    padding: 30px;
+    color: rgb(214, 247, 238);
+}
+.copy-right{
+    
+    
+}
+.orangered-color{
+    color: orangered;
+}
+.white-light-color{
+    color: rgb(129, 123, 123);
+}
